@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormValidation</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="cointainer">
+      <form action="message.html" method="post">
+        <h2>Form Registration</h2>
+        <div class="form-name">
+          <label for="name">Name</label><br />
+          <input type="text" class="name" id="name" /><br />
+          <div class="nameerror"></div>
+          <br />
+        </div>
+        <div class="form-email">
+          <label for="email">Email</label><br />
+          <input type="email" class="email" id="email" /><br />
+          <div class="emailerror"></div>
+          <br />
+        </div>
+        <div class="form-password">
+          <label for="password">Password</label><br />
+          <input type="password" class="password" id="password" /><br />
+          <div class="passworderror"></div>
+          <br />
+        </div>
+        <p class="details"></p>
+        <br />
+        <div class="buttons">
+          <button type="submit" class="button">Submit</button>
+        <button type="reset" class="resetbutton">Reset</button>
+        </div>
+      </form>
+    </div>
+    <script 
+    src="index.js"
+    ></script>
+  </body>
+</html>
